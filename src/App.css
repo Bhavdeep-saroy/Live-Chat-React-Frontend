@@ -1,0 +1,260 @@
+/* Chat container */
+    .chat-container {
+        border: 1px solid #ccc;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* margin-left: 471px; */
+    }
+
+    /* Chat messages */
+    .chat-message {
+        display: flex;
+        margin-bottom: 15px;
+    }
+
+    /* User message */
+    .user-message {
+        margin-left: auto;
+        background-color: #DCF8C6;
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 70%;
+    }
+
+    /* Other user's message */
+    .other-message {
+        background-color: #e5e5ea;
+        padding: 10px;
+        border-radius: 10px;
+        max-width: 70%;
+    }
+
+    /* Avatar */
+    .avatar {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    /* Message input */
+    .message-input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    /* Send button */
+    .send-button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+
+    /* header css */
+
+  .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  color: #ff0;
+}
+
+/* .container div */
+.container{
+  margin-top: 20px;
+}
+
+.modal-title{
+  color: #333;
+}
+
+        /* user list css */
+        /* src/App.css */
+.user-list {
+          border: 1px solid #ccc;
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info h3 {
+  margin: 0;
+}
+
+.status {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.online {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.offline {
+  background-color: #e74c3c;
+  color: #fff;
+}
+/* //////////////////////////////////////////// */
+
+/* App.css */
+/* Define styles for the dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 184px
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  z-index: 1;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content div:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ///////////////////////////////////////////////////////// */
+.user-search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 8px;
+  flex: 1; /* Take remaining space */
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for button */
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.block {
+  display: none;
+}
+.svgcss{
+    margin-left: 177px;
+    margin-bottom: 15px;
+    margin-top: -40px;
+}
+
+
+label {
+  color: #000;
+}
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
